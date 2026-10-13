@@ -2,21 +2,21 @@
 
 ## Tim
 
-| Nama | NIM | Phase Lead untuk Fase |
+| Naura Zumala Rahmatika | 2600016035 | Phase Lead untuk Fase |
 |---|---|---|
-| [Nama 1] | [NIM] | Discover, Build |
-| [Nama 2] | [NIM] | Frame, Test |
-| [Nama 3] | [NIM] | Define, Communicate |
-| [Nama 4] | [NIM] | Design, Reflect |
+| [Haura Khairiyyah ] | [ 2600016010] | Discover, Build |
+| [Jessicca Az Zhahra ] | [2600016044] | Frame, Test |
+| [Luna Salsa dorica] | [ 2600016013 ] | Define, Communicate |
+| [Rifka Sabriya Sage] | [2600016045] | Design, Reflect |
 
-> **Aturan**: Tim memakai **rotating phase lead** — tidak ada peran permanen. Setiap anggota memimpin minimal satu fase. Jadwal fase awal ditetapkan di WS01 dan dapat disesuaikan sepanjang semester.
+> **Aturan**: Tim memakai **rotating phase lead** — tidak ada peran permanen. Setiap anggota memimpin minimal satu fase. Jadwal fase awal ditetapkan di WS01 dan dapat disesuaikan sepanjang semester
 
 ## Objek Studi
 
-- **Nama Unit Usaha**: [contoh: Kantin Kampus "Makmur"]
-- **Lokasi**: [contoh: Gedung A, Lantai 1]
-- **Pemilik**: [nama, kontak]
-- **Jenis Usaha**: [contoh: Kantin / Warung / Koperasi]
+- **Nama Unit Usaha**: Warung Sumber Rejeki
+- **Lokasi**: Jl. Ki Ageng Pemanahan No.35, Kragilan, Tamanan, Kec. Banguntapan, Kabupaten Bantul, Daerah Istimewa Yogyakarta 55191
+- **Pemilik**: Kak Diana, 087750910576
+- **Jenis Usaha**: Toko Kelontong
 
 ## Driving Question
 
