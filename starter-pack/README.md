@@ -1,12 +1,12 @@
-# [NAMA TIM] — Digital Problem Framing Mini Project
+# [DYNAMIC] — Digital Problem Framing Mini Project
 
 ## Tim
 
-| [Luna Salsa dorica] | [ 2600016013 ] | Discover, Test |
-| Naura Zumala Rahmatika | 2600016035 | Frame |
-| [Jessicca Az Zhahra ] | [2600016044] | Define |
-| [Haura Khairiyyah ] | [ 2600016010] | Design, Reflect |
-| [Rifka Sabriya Sage] | [2600016045] | Build, Communicate |
+| [Luna Salsa Dorica] | [2600016013] | [Discover, Test]
+|[Naura Zumala Rahmatika] | [2600016035] | [Frame]
+| [Jessica Az Zhahra] | [2600016044] | [Define]
+| [Haura Khairiyyah] | [2600016010] | [Design, Reflect]
+| [Rifka Sabriya Sage] | [2600016045] | [Build, Communicate]
 
 > **Aturan**: Tim memakai **rotating phase lead** — tidak ada peran permanen. Setiap anggota memimpin minimal satu fase. Jadwal fase awal ditetapkan di WS01 dan dapat disesuaikan sepanjang semester
 
