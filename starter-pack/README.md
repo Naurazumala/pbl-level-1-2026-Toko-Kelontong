@@ -2,8 +2,10 @@
 
 ## Tim
 
+| Nama | Nim | Tanggung Jawab / Phase Lead |
+|---|---|---|
 | [Luna Salsa Dorica] | [2600016013] | [Discover, Test]
-|[Naura Zumala Rahmatika] | [2600016035] | [Frame]
+| [Naura Zumala Rahmatika] | [2600016035] | [Frame]
 | [Jessica Az Zhahra] | [2600016044] | [Define]
 | [Haura Khairiyyah] | [2600016010] | [Design, Reflect]
 | [Rifka Sabriya Sage] | [2600016045] | [Build, Communicate]
