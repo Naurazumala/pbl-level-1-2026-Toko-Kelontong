@@ -26,7 +26,7 @@
 ## 3. Batasan Sistem (Scope)
 
 - **Diselesaikan dalam proyek ini**: [_Saat ini kita sudah sampai di tahap WS03 dan WS04 di tahap ini kita melakukan observasi dan wawancara kepada mitra kami. Hasil dari wawancara dan observasi kita cantumkan di WS04._]
-- **Tidak diselesaikan (dan alasan)**: [_Sistem Pembayaran Non-tunai (QRIS). Alasannya karena kami hanya fokus pada saat ini hanya untuk membereskan pencatatan dan hitungan rekap harian, Antrian panjang saat jam sibuk. Alasannya karena hanya terjadi pada jam-jam sibuk tertentu saja. Masalah ini bisa diatasi dengan melakukan pelayanan dengan waktu yang lebih cepat, Pengelolaan stok barang. Alasannya karena dalam kasus ini mitra kami melakukan stok saat barang habis saja, jika kami membuatkan data tentang stok barang kemungkinan tidak digunakan oleh mitra._]
+- **Tidak diselesaikan (dan alasan)**: [_Antrian panjang saat jam sibuk. Alasannya karena hanya terjadi pada jam-jam sibuk tertentu saja. Masalah ini bisa diatasi dengan melakukan pelayanan dengan waktu yang lebih cepat, Pengelolaan stok barang. Alasannya karena dalam kasus ini mitra kami melakukan stok saat barang habis saja, jika kami membuatkan data tentang stok barang kemungkinan tidak digunakan oleh mitra._]
 - **Asumsi yang dipakai**: [_Mitra kami masih melakukan rekapitulasi masih secara manual sehingga terjadi kesalahan dalam menghitung, Setiap terjadinya transaksi baik non-tunai atau secara tunai perlu dicatat agar tidak terjadi kekeliruan saat melakukan rekapitulasi, Mitra kami membutuhkan sistem yang sederhana dan mudah dipahami oleh mitra, Data transaksi yang dimasukkan sesuai dengan pendapatan yang diperoleh._]
 
 ## 4. Data Kuantitatif Pendukung
