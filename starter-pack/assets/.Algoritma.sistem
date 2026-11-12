@@ -1,0 +1,59 @@
+ALGORITMA Sistem_POS_Toko_Kelontong
+
+DEKLARASI:
+    produk, metode_bayar, ulang_barang, minta_struk, ada_pelanggan : STRING
+    jumlah, total_belanja, uang_tunai, kembalian : INTEGER
+    jumlah_transaksi, total_omzet, total_tunai, total_qris : INTEGER
+
+DESKRIPSI:
+    MULAI
+    
+    REPEAT
+        total_belanja = 0
+        
+        // Proses input keranjang belanja
+        REPEAT
+            INPUT produk (dari katalog POS atau scan barcode)
+            INPUT jumlah
+            total_belanja = total_belanja + (harga(produk) * jumlah)
+            
+            INPUT ulang_barang ("Tambah barang lain? Ya/Tidak")
+        UNTIL ulang_barang = "Tidak"
+        
+        OUTPUT total_belanja
+        
+        // Proses pembayaran
+        INPUT metode_bayar ("Tunai" atau "QRIS")
+        IF metode_bayar = "Tunai" THEN
+            INPUT uang_tunai
+            kembalian = uang_tunai - total_belanja
+            OUTPUT kembalian
+        ELSE IF metode_bayar = "QRIS" THEN
+            OUTPUT "Tampilkan Kode QRIS"
+            PROSES "Pelanggan scan & bayar via QRIS"
+        END IF
+        
+        PROSES Tekan "Selesaikan Pembayaran"
+        SIMPAN transaksi ke Nota_Digital
+        
+        // Proses cetak/kirim nota
+        INPUT minta_struk ("Pelanggan minta struk digital? Ya/Tidak")
+        IF minta_struk = "Ya" THEN
+            PROSES Pilih "Kirim Struk Digital" via WhatsApp
+            OUTPUT "Sistem mengirim struk ke pelanggan"
+        ELSE
+            PROSES "Kasir menulis nota manual di kertas"
+            OUTPUT "Nota kertas diberikan ke pelanggan"
+        END IF
+        
+        INPUT ada_pelanggan ("Masih ada pelanggan lagi? Ya/Tidak")
+    UNTIL ada_pelanggan = "Tidak"
+    
+    // Proses tutup toko & rekapitulasi pemilik
+    PROSES Pemilik membuka menu "Rekapitulasi"
+    HITUNG jumlah_transaksi, total_omzet, total_tunai, total_qris dari Nota_Digital
+    OUTPUT tampilan rekapitulasi
+    PROSES Tekan "Cetak Rekapitulasi"
+    OUTPUT "Printer thermal mengeluarkan rekapitulasi"
+    
+    SELESAI
